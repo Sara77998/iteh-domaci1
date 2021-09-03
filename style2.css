@@ -1,0 +1,121 @@
+*{
+  
+    margin:0;
+    padding:0;
+    font-family: monospace;
+}
+body{
+    margin: 0px;
+    width: auto;
+    background-image: url("slike/knjige.jfif");
+    background-color: teal;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+}
+.container{
+    width: 90%;
+    margin: auto;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    text-align: center;
+    object-position: center;
+}
+
+.nav ul{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    text-align: center;
+    
+}
+.nav li{
+    background-color: transparent;
+    display: inline-block;
+    padding: 10px;
+    margin: 0px;
+    border: 1px solid rgba(255,255,255,1);
+    margin-left: 20px;
+    margin-right: 20px;
+    position: relative;
+}
+.nav a{
+    color: white;
+    padding: 0px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+
+.nav li:hover{
+    border-color:black;
+    transition:ease-in-out;
+    transition-duration: 0.5s;
+}
+
+.ponude h1 {
+    text-align: center;
+    font-size: 80px;
+}
+.inner{
+    max-width: 1200px;
+    margin: auto;
+    overflow: hidden;
+    padding: 0 20px;
+    text-align: center;
+}
+.border{
+    width:180px;
+    height:5px;
+    background: #8aa6bd;
+    margin: 20px auto;
+}
+.row{
+    font-size: large;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 300px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: white;
+    color: black;
+}
+.col{
+    flex:30%;
+    max-width: 25%;
+    box-sizing: border-box;
+    padding:5px;
+}
+.name{
+    padding-bottom: 40px;
+    padding-top: 40px;
+    font-size: xx-large;
+}
+.offer{
+    background-color: transparent;
+    padding-top:20px;
+    height: 100px;
+}
+.offer a{
+    padding-bottom: 30px;
+}
+
+
+@media screen and(max-width:960px){
+    .col{
+        flex:100%;
+        max-width: 80px;
+    }
+}
+@media screen and(max-width:600px){
+    .col{
+        flex:100%;
+        max-width: 80px;
+    }
+}

@@ -1,0 +1,55 @@
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0px;
+    width: auto;
+    background-image: url("slike/gomila.jpg");
+    background-color: teal;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color:black;
+}
+
+.container{
+    width: 90%;
+    margin: auto;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    text-align: center;
+    object-position: center;
+}
+
+.nav ul{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    text-align: center;
+    
+}
+.nav li{
+    background-color: transparent;
+    display: inline-block;
+    padding: 10px;
+    margin: 0px;
+    border: 1px solid rgba(255,255,255,1);
+    margin-left: 20px;
+    margin-right: 20px;
+    position: relative;
+}
+.nav a{
+    color: white;
+    padding: 0px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+
+.nav li:hover{
+    border-color: black;
+    transition:ease-in-out;
+    transition-duration: 0.5s;
+}
